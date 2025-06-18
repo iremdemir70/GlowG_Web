@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlowG_Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="overlay">
+          <h1>🔮</h1>
+            <h1>Glow Genıe Project Portfolıo</h1>
+            <p>Personalized Skin Care Powered by AI</p>
+            <nav>
+                <form action="#about" method="get" class="nav-box">
+                    <input type="submit" value="About Us" />
+                </form>
+                <form action="#Introductıon" method="get" class="nav-box">
+                    <input type="submit" value="Introductıon" />
+                </form>
+                <form action="#Features" method="get" class="nav-box">
+                  <input type="submit" value="Features" />
+              </form>
+                <form action="#contact" method="get" class="nav-box">
+                    <input type="submit" value="Contact Us" />
+                </form>
+            </nav>
+        </div>
+    </header>
+    <main>
+      <section id="styled-header">
+        <section id="about">
+          <div class="form-box">
+            <h2>About Us</h2>
+            <p>
+              We are senior Computer Engineering students at Yaşar University, united by a shared vision to create innovative solutions that address real-world challenges.
+              Our project aims to help individuals discover their skin type and discover personalized skincare products tailored to their needs.
+            </p>
+            
+            <p>
+              Our journey is fueled by a deep commitment to leveraging technology to improve everyday life. By combining advanced tools such as machine learning and data-driven insights, 
+              we strive to offer accurate, user-friendly, and effective solutions in the realm of skincare.
+            </p>
+            <p>
+              As a team, we value collaboration, creativity, and perseverance, embracing every challenge as an opportunity to grow and innovate. With our dedication, 
+              technical expertise, and a passion for excellence, we are determined to bring this project to life and leave a lasting impact on both the technology and skincare industries.
+            </p>
+            <p>We would like to extend special thanks to our advisor, Assoc. Prof. Dr. Ömer ÇETİN, whose guidance, support, and valuable insights have been instrumental in the successful development of 
+              this project. Their mentorship has played a key role in shaping our work and helping us navigate the challenges we encountered along the way.
+              </p>
+            </div>
+        </section>
+        <section id="Introductıon">
+          <div class="form-box">
+            <h2>Our Graduatıon Project</h2>
+            <h3>Problem definition:</h3>
+            <p>Skin care is vital for both physical health and aesthetics, but identifying skin type and selecting appropriate products can be challenging. 
+              Misjudging skin type often leads to using incorrect products, causing issues like irritation, dryness, oiliness, or acne. 
+              This not only harms skin health but also results in financial losses and reduced confidence in skincare. The wide range of products and lack of knowledge 
+              about ingredients further complicates the decision-making process, forcing individuals to rely on advertisements and generic advice.
+            </p>
+              <h3>Problem solution:</h3>
+              <p>
+                GlowGenie is an AI-powered skincare platform that simplifies access to accurate and reliable solutions.
+                 It helps users identify their skin type through simple questions and analyzes product ingredients for compatibility.
+                  The platform also provides personalized product recommendations based on users' skin types and preferences. 
+                  By offering a fast, reliable, and tailored approach, GlowGenie enhances the skincare experience, empowering users to make
+                   informed decisions for healthier and more effective skincare.
+              </p>
+            <div class="pdf-links">
+            <a href="folders/GLOWG_RSD-2025-01-12.pdf"  class="pdf-link">RSD</a>
+            <a href="folders/GLOWG-DSD-2025-01-14-Rev-1.0.pdf"  class="pdf-link">DSD</a>
+            <a href="folders/GlowG Interface Demo.pdf"  class="pdf-link">GUI</a>
+            <a href="folders/GlowG_Poster.pdf"  class="pdf-link">Poster</a>
+            <a href="folders/GLOWG_FinalReport.pdf"  class="pdf-link">Final Report</a>
+            <a href="folders/GLOWG_Presentation.pdf"  class="pdf-link">Presentation</a>
+          </div>
+        </div>
+        </section>
+        <section id="Features">
+          <div class="form-box">
+          <h2>Glow Genıe Features</h2>
+          <h3>Skin Type Analysis</h3>
+          <p>Users can take a detailed test to determine their skin type</p>
+          <h3>Product Suitability Feedback</h3>
+          <p>This feature enables users to evaluate whether a specific product is compatible with their skin type. It is implemented using a combination of machine
+             learning and GPT API integration, ensuring personalized and accurate recommendations.
+          </p>
+          <h3>Generate Product Recommendations</h3>
+          <p>The system provides product recommendations tailored to the user’s skin type, skin tone (for sunscreen), and allergens, if specified.</p>
+          <h3>List All Products</h3>
+          <p>This feature provides users with a comprehensive view of all skincare products available in the database. It also allows users to filter
+             products by specific categories to quickly locate items of interest.
+          </p>
+        </div>
+      </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <div class="contact-box">
+          <p>
+              To contact us for improving our project, you can send an email to:
+          </p>
+          <div class="email-links">
+              <a href="mailto:20070001029@stu.yasar.edu.tr">İrem Demir - 20070001029@stu.yasar.edu.tr</a>
+              <a href="mailto:21070001045@stu.yasar.edu.tr">Ceren Sude Yetim - 21070001045@stu.yasar.edu.tr</a>
+              <a href="mailto:21070001057@stu.yasar.edu.tr">Ece Topuz - 21070001057@stu.yasar.edu.tr</a>
+              <a href="mailto:20070001047@stu.yasar.edu.tr">Gizem Tanış - 20070001047@stu.yasar.edu.tr</a>
+          </div>
+      </div>
+  </section>
+</section>
+    </main>
+    <button id="scrollTopButton" title="Go to top">🚀</button>
+
+    <script>
+      //scroll to top
+        window.onscroll = function () {
+            const scrollTopButton = document.getElementById("scrollTopButton");
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                scrollTopButton.style.display = "block"; 
+            } else {
+                scrollTopButton.style.display = "none"; 
+            }
+        };
+
+        document.getElementById("scrollTopButton").onclick = function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' }); 
+        };
+    </script>
+</body>
+
+
+</html>
